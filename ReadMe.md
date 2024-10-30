@@ -9,3 +9,4 @@ This pack includes:
 - Every charm
 - Most overworld bosses and dreamers
 - Progression-enabling items like Brand and Tram Pass
+- Zero exclusion logic
