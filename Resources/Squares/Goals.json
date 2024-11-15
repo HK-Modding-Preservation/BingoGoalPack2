@@ -1,0 +1,935 @@
+﻿[
+    {
+        "name": "Mothwing Cloak",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasDash",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Mantis Claw",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasWalljump",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasSuperDash",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Shade Cloak",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasShadowDash",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Monarch Wings",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasDoubleJump",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Isma's Tear",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasAcidArmour",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dream Nail",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasDreamNail",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dream Gate",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasDreamGate",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Awoken Dream Nail",
+        "condition": {
+            "type": "Bool",
+            "variableName": "dreamNailUpgraded",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Vengeful Spirit",
+        "condition": {
+            "type": "Int",
+            "variableName": "fireballLevel",
+            "expectedQuantity": 1,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Shade Soul",
+        "condition": {
+            "type": "Int",
+            "variableName": "fireballLevel",
+            "expectedQuantity": 2,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Desolate Dive",
+        "condition": {
+            "type": "Int",
+            "variableName": "quakeLevel",
+            "expectedQuantity": 1,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Descending Dark",
+        "condition": {
+            "type": "Int",
+            "variableName": "quakeLevel",
+            "expectedQuantity": 2,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Howling Wraiths",
+        "condition": {
+            "type": "Int",
+            "variableName": "screamLevel",
+            "expectedQuantity": 1,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Abyss Shriek",
+        "condition": {
+            "type": "Int",
+            "variableName": "screamLevel",
+            "expectedQuantity": 2,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Great Slash",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasDashSlash",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dash Slash",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasUpwardSlash",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Cyclone Slash",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasCyclone",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "King's Brand",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasKingsBrand",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lumafly Lantern",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasLantern",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Tram Pass",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasTramPass",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "City Crest",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasCityKey",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Shopkeeper's Key",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasSlykey",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Elegant Key",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasWhiteKey",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Love Key",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hasLoveKey",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Nail 1",
+        "condition": {
+            "type": "Int",
+            "variableName": "nailSmithUpgrades",
+            "expectedQuantity": 1,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Nail 2",
+        "condition": {
+            "type": "Int",
+            "variableName": "nailSmithUpgrades",
+            "expectedQuantity": 2,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Nail 3",
+        "condition": {
+            "type": "Int",
+            "variableName": "nailSmithUpgrades",
+            "expectedQuantity": 3,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Nail 4",
+        "condition": {
+            "type": "Int",
+            "variableName": "nailSmithUpgrades",
+            "expectedQuantity": 4,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Wayward Compass",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_2",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Gathering Swarm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_1",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Stalwart Shell",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_4",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Soul Catcher",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_20",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Shaman Stone",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_19",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Soul Eater",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_21",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dashmaster",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_31",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Sprintmaster",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_37",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Grubsong",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_3",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Grubberfly's Elegy",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_35",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fragile Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_23",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Unbreakable Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "fragileHealth_unbreakable",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fragile Greed",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_24",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Unbreakable Greed",
+        "condition": {
+            "type": "Bool",
+            "variableName": "fragileGreed_unbreakable",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fragile Strength",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_25",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Unbreakable Strength",
+        "condition": {
+            "type": "Bool",
+            "variableName": "fragileStrength_unbreakable",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Spell Twister",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_33",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Steady Body",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_14",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Heavy Blow",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_15",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Quick Slash",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_32",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Longnail",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_18",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Mark of Pride",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_13",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Fury of the Fallen",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_6",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Thorns of Agony",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_12",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Baldur Shell",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_5",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Flukenest",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_11",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Defender's Crest",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_10",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Glowing Womb",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_22",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Quick Focus",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_7",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Deep Focus",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_34",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lifeblood Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_8",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lifeblood Core",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_9",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Joni's Blessing",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_27",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hiveblood",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_29",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Spore Shroom",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_17",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Sharp Shadow",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_16",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Shape of Unn",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_28",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Nailmaster's Glory",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_26",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Weaversong",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_39",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dream Wielder",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_30",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dreamshield",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_38",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Grimmchild",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotCharm_40",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Carefree Melody",
+        "condition": {
+            "type": "Int",
+            "variableName": "grimmChildLevel",
+            "expectedQuantity": 5,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Queen's White Fragment",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotQueenFragment",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "King's White Fragment",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotKingFragment",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Kingsoul",
+        "condition": {
+            "type": "Int",
+            "variableName": "royalCharmState",
+            "expectedQuantity": 3,
+            "state": "Current"
+        }
+    },
+    {
+        "name": "Void Heart",
+        "condition": {
+            "type": "Bool",
+            "variableName": "gotShadeCharm",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lurien",
+        "condition": {
+            "type": "Bool",
+            "variableName": "lurienDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Monomon",
+        "condition": {
+            "type": "Bool",
+            "variableName": "monomonDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Herrah",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hegemolDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "False Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "falseKnightDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Failed Champion",
+        "condition": {
+            "type": "Bool",
+            "variableName": "falseKnightDreamDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Brooding Mawlek",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedMawlek",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Gruz Mother",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedBigFly",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Vengefly King",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedBigBuzzer",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hornet 1",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hornet1Defeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hornet 2",
+        "condition": {
+            "type": "Bool",
+            "variableName": "hornetOutskirtsDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Massive Moss Charger",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedMegaMossCharger",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Mantis Lords",
+        "condition": {
+            "type": "Bool",
+            "variableName": "defeatedMantisLords",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Soul Master",
+        "condition": {
+            "type": "Bool",
+            "variableName": "mageLordDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Soul Tyrant",
+        "condition": {
+            "type": "Bool",
+            "variableName": "mageLordDreamDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Crystal Guardian",
+        "condition": {
+            "type": "Bool",
+            "variableName": "defeatedMegaBeamMiner",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Enraged Guardian",
+        "condition": {
+            "type": "Int",
+            "variableName": "killsMegaBeamMiner",
+            "expectedQuantity": 2,
+            "state": "Removed"
+        }
+    },
+    {
+        "name": "Watcher Knights",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedBlackKnight",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Uumuu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedMegaJellyfish",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Broken Vessel",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedInfectedKnight",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Lost Kin",
+        "condition": {
+            "type": "Bool",
+            "variableName": "infectedKnightDreamDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Dung Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedDungDefender",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "White Defender",
+        "condition": {
+            "type": "Bool",
+            "variableName": "whiteDefenderDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Flukemarm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedFlukeMother",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Nosk",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedMimicSpider",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Hive Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedHiveKnight",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Collector",
+        "condition": {
+            "type": "Bool",
+            "variableName": "collectorDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Traitor Lord",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedTraitorLord",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Grey Prince Zote",
+        "condition": {
+            "type": "Bool",
+            "variableName": "greyPrinceDefeated",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Troupe Master Grimm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGrimm",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Nightmare King Grimm",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedNightmareGrimm",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Xero",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostXero",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Gorb",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostAladar",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Elder Hu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostHu",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Galien",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostGalien",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "No Eyes",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostNoEyes",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Marmu",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostMarmu",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "Markoth",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedGhostMarkoth",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "The Hollow Knight",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedHollowKnight",
+            "expectedValue": true
+        }
+    },
+    {
+        "name": "The Radiance",
+        "condition": {
+            "type": "Bool",
+            "variableName": "killedFinalBoss",
+            "expectedValue": true
+        }
+    }
+]
