@@ -330,9 +330,9 @@
     <None Include=".gitignore" />
     <None Include="ReadMe.md" />
     <None Include="Resources\.gitignore" />
-    <None Include="Resources\Squares\*.json" />
+    <None Include="Resources\Squares\Goals.json" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Squares\*.json" />
+    <EmbeddedResource Include="Resources\Squares\Goals.json" />
   </ItemGroup>
 </Project>

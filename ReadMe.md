@@ -8,5 +8,5 @@ This pack includes:
 - All movement, spells, and abilities
 - Every charm
 - Most overworld bosses and dreamers
-- Progression-enabling items like Brand and Tram Pass
+- Progression-enabling items and keys like Brand and Tram Pass
 - Zero exclusion logic

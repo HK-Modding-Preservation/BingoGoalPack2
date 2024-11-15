@@ -1,6 +1,4 @@
 ﻿using Modding;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,7 +18,6 @@ namespace BingoGoalPack2 {
 
             Dictionary<string, BingoGoal> myGoals = processEmbeddedJson(assembly, "Goals");
             GameMode mode = new("GoalPack2", myGoals);
-            //BingoSync.Goals.AddGameMode(mode);
             BingoSync.Goals.RegisterGoalsForCustom("Goal Pack 2", myGoals);
         }
 
